@@ -5,7 +5,7 @@ export const colors = {
   green: "#98ca3f",
   orange: "#f8b71c",
   gray: "#969696",
-  darkBlue: "#1c3643",
+  darkBlue: "#1c2136",
   lightBlue: "#1e5372",
   softGray: "#f6f8f9",
 }
@@ -213,7 +213,6 @@ export const StyledProductDetail = styled.div`
   display: flex;
   flex-direction: column;
   text-align: justify;
-  height: 82vh;
   img {
     width: 100%;
     object-fit: cover;
@@ -329,6 +328,7 @@ export const MenuItem = styled.li`
 `
 
 export const Footer = styled.footer`
+  margin: 0 auto;
   background-color: ${colors.darkBlue};
   color: white;
   display: flex;
@@ -336,7 +336,6 @@ export const Footer = styled.footer`
   align-items: center;
   padding: 2rem;
   position: relative;
-  bottom: 0;
   a {
     color: ${colors.green};
     margin-left: 0.3rem;

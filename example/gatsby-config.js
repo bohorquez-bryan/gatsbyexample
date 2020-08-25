@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -43,7 +44,19 @@ module.exports = {
               name: doc.name,
               lastname: doc.lastname,
             })
-          }
+          },
+          {
+            type: 'Usuarios',
+            collection: 'users',
+            map: doc => ({
+              email: doc.email,
+              photo: doc.photo,
+              phone_cell: doc.phone_cell,
+              password: doc.password,
+              name: doc.name,
+              lastname: doc.lastname,
+            })
+          },
         ]
       }
     },

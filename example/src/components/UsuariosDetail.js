@@ -6,7 +6,7 @@ import {
 import { Link } from 'gatsby'
 //import {SEO} from '../components/seo'
 
-export default function DistributorDetail({id, name, email, lastname}) {
+export default function UsuariosDetail({id, name, email, lastname}) {
     return (
         <StyledProductDetail>
             <div>
@@ -16,7 +16,7 @@ export default function DistributorDetail({id, name, email, lastname}) {
                 <p>{id}</p>
             </div>
             <br/>
-            {/*<Link to="/">Regresar</Link>*/}
+            <Link to="/">Regresar</Link>
             
 
         </StyledProductDetail>

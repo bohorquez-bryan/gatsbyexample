@@ -14,7 +14,9 @@ details,
 figcaption,
 figure,
 footer {
-  display: center;
+  /*display: center;*/
+  position: relative;
+  
   
 }
 header,

@@ -23,6 +23,7 @@ export const GlobalStyles = createGlobalStyle`
   main{
     padding-top: 3.5rem;
   }
+  
   ${above.medium`
    main{
       padding-top: calc(3.5rem - 100vh);
